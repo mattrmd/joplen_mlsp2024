@@ -1,0 +1,13 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "emeraldwalk.runonsave": {
+    "commands": [
+        {
+            "match": "\\.ipynb$",
+            "isAsync": false,
+            // "cmd": "${env.Name} -m nbqa black ${file}"
+            "cmd": "echo test"
+        },
+    ]
+}
+}
