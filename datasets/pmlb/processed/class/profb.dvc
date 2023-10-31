@@ -1,0 +1,6 @@
+outs:
+- md5: 06330b1b273b8f50650cff8ba031ed93.dir
+  size: 186706
+  nfiles: 7
+  hash: md5
+  path: profb

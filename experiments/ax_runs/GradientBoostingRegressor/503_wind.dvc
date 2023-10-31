@@ -1,0 +1,6 @@
+outs:
+- md5: 588f7a6dea8f6ee16bfd2fdc7bbd2c3d.dir
+  size: 126023
+  nfiles: 2
+  hash: md5
+  path: 503_wind

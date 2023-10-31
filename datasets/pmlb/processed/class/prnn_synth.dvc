@@ -1,0 +1,6 @@
+outs:
+- md5: 574e02828c6b16cc06d0133abc1f0252.dir
+  size: 37641
+  nfiles: 7
+  hash: md5
+  path: prnn_synth

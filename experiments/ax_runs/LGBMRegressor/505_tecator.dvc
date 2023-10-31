@@ -1,0 +1,6 @@
+outs:
+- md5: 42e44e5f47dee49d3cc30cda4c82743a.dir
+  size: 120005
+  nfiles: 2
+  hash: md5
+  path: 505_tecator

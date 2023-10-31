@@ -1,0 +1,6 @@
+outs:
+- md5: f448245abe9115b752f45c5a4457d3b7.dir
+  size: 6690173
+  nfiles: 7
+  hash: md5
+  path: spambase

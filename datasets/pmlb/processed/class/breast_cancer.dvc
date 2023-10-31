@@ -1,0 +1,6 @@
+outs:
+- md5: 457223e7050a3de859035d7d0704a8ec.dir
+  size: 90187
+  nfiles: 7
+  hash: md5
+  path: breast_cancer

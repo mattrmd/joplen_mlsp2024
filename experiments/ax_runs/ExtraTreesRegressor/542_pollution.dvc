@@ -1,0 +1,6 @@
+outs:
+- md5: ad20e6d67896cce885d3cd7bfac48df5.dir
+  size: 112123
+  nfiles: 2
+  hash: md5
+  path: 542_pollution

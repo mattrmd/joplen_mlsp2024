@@ -1,0 +1,6 @@
+outs:
+- md5: 2b484aff686cf5190dd6c452b463082a.dir
+  size: 146695
+  nfiles: 7
+  hash: md5
+  path: threeOf9

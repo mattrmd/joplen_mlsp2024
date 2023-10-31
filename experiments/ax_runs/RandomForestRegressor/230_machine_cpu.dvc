@@ -1,0 +1,6 @@
+outs:
+- md5: f588e451979e561d5fb92ca5b4d9abdc.dir
+  size: 118872
+  nfiles: 2
+  hash: md5
+  path: 230_machine_cpu

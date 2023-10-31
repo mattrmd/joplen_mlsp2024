@@ -1,0 +1,6 @@
+outs:
+- md5: e0348bf9201e86f2ab91272621cc23ed.dir
+  size: 121594
+  nfiles: 7
+  hash: md5
+  path: hungarian

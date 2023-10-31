@@ -1,0 +1,6 @@
+outs:
+- md5: f45e207596b6a57a86765566e9729c06.dir
+  size: 112226
+  nfiles: 2
+  hash: md5
+  path: 527_analcatdata_election2000

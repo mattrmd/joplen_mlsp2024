@@ -1,0 +1,6 @@
+outs:
+- md5: 95e51f02fb666ed09eb04eea64f7a926.dir
+  size: 167207
+  nfiles: 7
+  hash: md5
+  path: backache

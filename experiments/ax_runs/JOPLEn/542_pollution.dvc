@@ -1,0 +1,6 @@
+outs:
+- md5: abc549b7f16ed29ca4d3423273db7066.dir
+  size: 118992
+  nfiles: 2
+  hash: md5
+  path: 542_pollution

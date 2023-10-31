@@ -1,0 +1,6 @@
+outs:
+- md5: 6bd84da0d9937115476e5ef6ba4dcb69.dir
+  size: 294729
+  nfiles: 7
+  hash: md5
+  path: crx

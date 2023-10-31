@@ -1,0 +1,6 @@
+outs:
+- md5: 99a240c3357317972009c0694816f3f9.dir
+  size: 118894
+  nfiles: 2
+  hash: md5
+  path: 1193_BNG_lowbwt

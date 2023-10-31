@@ -1,0 +1,6 @@
+outs:
+- md5: da0d667006bd76455ea92186c0f54853.dir
+  size: 118881
+  nfiles: 2
+  hash: md5
+  path: 706_sleuth_case1202

@@ -1,0 +1,6 @@
+outs:
+- md5: 772cee27dccf22e90ef39f0ba0aab0eb.dir
+  size: 5273672
+  nfiles: 7
+  hash: md5
+  path: magic

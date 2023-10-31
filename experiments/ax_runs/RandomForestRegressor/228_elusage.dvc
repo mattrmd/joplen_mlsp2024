@@ -1,0 +1,6 @@
+outs:
+- md5: cc55869135c1c94c8a19a0a1d25d6f36.dir
+  size: 118873
+  nfiles: 2
+  hash: md5
+  path: 228_elusage

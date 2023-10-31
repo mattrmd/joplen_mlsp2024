@@ -1,0 +1,6 @@
+outs:
+- md5: cd3d5d622c0d8d78c7f8edd9b68cb779.dir
+  size: 120018
+  nfiles: 2
+  hash: md5
+  path: 229_pwLinear

@@ -1,0 +1,6 @@
+outs:
+- md5: 1729e400346d939ecf8e82e3b0e4e35f.dir
+  size: 51689
+  nfiles: 7
+  hash: md5
+  path: analcatdata_lawsuit

@@ -1,0 +1,6 @@
+outs:
+- md5: 80a99691e32ee04c1f47d50516b4945f.dir
+  size: 119091
+  nfiles: 2
+  hash: md5
+  path: 195_auto_price

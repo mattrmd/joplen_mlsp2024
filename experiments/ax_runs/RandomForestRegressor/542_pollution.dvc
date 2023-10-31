@@ -1,0 +1,6 @@
+outs:
+- md5: f5011af34255b2c8c02dc11905756edb.dir
+  size: 118870
+  nfiles: 2
+  hash: md5
+  path: 542_pollution

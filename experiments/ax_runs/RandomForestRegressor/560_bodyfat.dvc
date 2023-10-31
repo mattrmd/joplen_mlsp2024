@@ -1,0 +1,6 @@
+outs:
+- md5: 9ecc1bc41ddf9df45b31f6c1c783b14a.dir
+  size: 118825
+  nfiles: 2
+  hash: md5
+  path: 560_bodyfat

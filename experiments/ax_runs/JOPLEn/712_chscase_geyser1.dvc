@@ -1,0 +1,6 @@
+outs:
+- md5: 3530e9109a3273f37d87faf8f38056d1.dir
+  size: 118999
+  nfiles: 2
+  hash: md5
+  path: 712_chscase_geyser1

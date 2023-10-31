@@ -1,0 +1,6 @@
+outs:
+- md5: fa346dca904ba15d005cf75392ad234e.dir
+  size: 411337
+  nfiles: 7
+  hash: md5
+  path: spectf

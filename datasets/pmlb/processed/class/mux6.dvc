@@ -1,0 +1,6 @@
+outs:
+- md5: 57628bbe14a369d41977071a53186167.dir
+  size: 41112
+  nfiles: 7
+  hash: md5
+  path: mux6

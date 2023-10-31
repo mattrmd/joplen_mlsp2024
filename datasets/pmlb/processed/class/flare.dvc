@@ -1,0 +1,6 @@
+outs:
+- md5: 906f8a4ec172d5df613322402cff27b1.dir
+  size: 311860
+  nfiles: 7
+  hash: md5
+  path: flare

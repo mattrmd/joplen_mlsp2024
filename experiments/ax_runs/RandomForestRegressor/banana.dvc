@@ -1,0 +1,6 @@
+outs:
+- md5: a162b2d409533584c1563ab2aabbfddc.dir
+  size: 118830
+  nfiles: 2
+  hash: md5
+  path: banana

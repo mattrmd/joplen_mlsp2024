@@ -1,0 +1,6 @@
+outs:
+- md5: 7833783cc4d6e5a71f07ec9ea94c1459.dir
+  size: 112164
+  nfiles: 2
+  hash: md5
+  path: 562_cpu_small

@@ -1,0 +1,6 @@
+outs:
+- md5: 9b4eb3c4c16400dac8fcd3c873d3b88c.dir
+  size: 126025
+  nfiles: 2
+  hash: md5
+  path: 1201_BNG_breastTumor

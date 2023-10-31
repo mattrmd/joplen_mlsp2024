@@ -1,0 +1,6 @@
+outs:
+- md5: 4f99d862597f4d0c35b6af7db40ace89.dir
+  size: 329206
+  nfiles: 7
+  hash: md5
+  path: ionosphere

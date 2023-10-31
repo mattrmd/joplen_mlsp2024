@@ -1,0 +1,6 @@
+outs:
+- md5: 580e3cf600ffc23944aa6212096315bd.dir
+  size: 23493
+  nfiles: 7
+  hash: md5
+  path: parity5

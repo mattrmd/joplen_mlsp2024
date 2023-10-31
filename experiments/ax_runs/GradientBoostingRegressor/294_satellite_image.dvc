@@ -1,0 +1,6 @@
+outs:
+- md5: 10046df0cb8b7e1a1bc2a8bba9bc0b28.dir
+  size: 126031
+  nfiles: 2
+  hash: md5
+  path: 294_satellite_image

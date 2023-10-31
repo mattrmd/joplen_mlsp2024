@@ -1,0 +1,6 @@
+outs:
+- md5: abd6b7549c2167e8958c4a9de622ed14.dir
+  size: 18334475
+  nfiles: 7
+  hash: md5
+  path: adult

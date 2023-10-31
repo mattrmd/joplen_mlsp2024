@@ -1,0 +1,6 @@
+outs:
+- md5: ca8a071a7ebcde0b4b43e2c7f05b6fcc.dir
+  size: 126014
+  nfiles: 2
+  hash: md5
+  path: 522_pm10

@@ -1,0 +1,6 @@
+outs:
+- md5: e6e5d0127334c33ba9040dc8fe16c0e5.dir
+  size: 112162
+  nfiles: 2
+  hash: md5
+  path: 210_cloud

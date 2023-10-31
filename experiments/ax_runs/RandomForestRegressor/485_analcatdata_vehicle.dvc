@@ -1,0 +1,6 @@
+outs:
+- md5: 2e4859b9e8efe54325e51e5088ff703e.dir
+  size: 118915
+  nfiles: 2
+  hash: md5
+  path: 485_analcatdata_vehicle

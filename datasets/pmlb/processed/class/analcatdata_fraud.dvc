@@ -1,0 +1,6 @@
+outs:
+- md5: d475dbf0ee50f28b6f5bf2c1bfbcb11d.dir
+  size: 31278
+  nfiles: 7
+  hash: md5
+  path: analcatdata_fraud

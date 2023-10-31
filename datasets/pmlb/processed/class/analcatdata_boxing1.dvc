@@ -1,0 +1,6 @@
+outs:
+- md5: 0975e84d9ef9af53beccdb0639309063.dir
+  size: 30718
+  nfiles: 7
+  hash: md5
+  path: analcatdata_boxing1

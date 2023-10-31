@@ -1,0 +1,6 @@
+outs:
+- md5: 9c35f2387d5c64a605584c99ab0ec047.dir
+  size: 39908
+  nfiles: 7
+  hash: md5
+  path: appendicitis

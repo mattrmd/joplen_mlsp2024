@@ -1,0 +1,6 @@
+outs:
+- md5: 68c9e3423029f88b90b2a5de57a13dc9.dir
+  size: 2974996
+  nfiles: 7
+  hash: md5
+  path: chess

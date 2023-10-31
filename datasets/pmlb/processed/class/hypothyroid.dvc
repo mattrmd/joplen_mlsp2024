@@ -1,0 +1,6 @@
+outs:
+- md5: 2ef50abd27489e214926c8f66a43d4d3.dir
+  size: 2074684
+  nfiles: 7
+  hash: md5
+  path: hypothyroid

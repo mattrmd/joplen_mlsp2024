@@ -1,0 +1,6 @@
+outs:
+- md5: 46ff88fd819e3907a6a82789e69b7405.dir
+  size: 112166
+  nfiles: 2
+  hash: md5
+  path: 690_visualizing_galaxy

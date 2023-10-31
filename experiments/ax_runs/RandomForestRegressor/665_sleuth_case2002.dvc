@@ -1,0 +1,6 @@
+outs:
+- md5: 45e317f74f25cb3e8284deda4fd37857.dir
+  size: 118850
+  nfiles: 2
+  hash: md5
+  path: 665_sleuth_case2002

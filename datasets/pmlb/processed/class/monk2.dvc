@@ -1,0 +1,6 @@
+outs:
+- md5: 4350916183c061d149b4a02cfba07373.dir
+  size: 123876
+  nfiles: 7
+  hash: md5
+  path: monk2

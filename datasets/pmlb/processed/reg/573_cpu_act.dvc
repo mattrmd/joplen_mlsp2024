@@ -1,0 +1,6 @@
+outs:
+- md5: 84768bc1c92927686e92d16c56bbcbc3.dir
+  size: 4524291
+  nfiles: 7
+  hash: md5
+  path: 573_cpu_act

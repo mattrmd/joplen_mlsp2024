@@ -1,0 +1,6 @@
+outs:
+- md5: 206efeebfe9f1d11456716abc4fb14a6.dir
+  size: 191507
+  nfiles: 7
+  hash: md5
+  path: pima

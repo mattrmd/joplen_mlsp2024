@@ -1,0 +1,6 @@
+outs:
+- md5: 1656acd78d294b93f2550b4edb05d98e.dir
+  size: 294702
+  nfiles: 7
+  hash: md5
+  path: buggyCrx
