@@ -1,6 +1,6 @@
 outs:
-- md5: 15b3e552d182b2ce4c177b4ec30c22f0.dir
-  size: 120084
+- md5: 510b79942aea545b289c23d934fd3033.dir
+  size: 641580
   nfiles: 2
   hash: md5
   path: 659_sleuth_ex1714

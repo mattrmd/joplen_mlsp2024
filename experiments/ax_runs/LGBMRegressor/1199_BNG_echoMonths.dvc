@@ -1,6 +1,6 @@
 outs:
-- md5: 95eafe2843568544c86eaedb36b4f0e1.dir
-  size: 120035
+- md5: 4d2fd2fb14d18b792d1f510fd4136d62.dir
+  size: 644644
   nfiles: 2
   hash: md5
   path: 1199_BNG_echoMonths

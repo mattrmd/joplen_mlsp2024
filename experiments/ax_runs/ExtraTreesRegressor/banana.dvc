@@ -1,6 +1,6 @@
 outs:
-- md5: 403e81cf2d6aeb85d0c52e036b9cb20b.dir
-  size: 112158
+- md5: ccdb8dbb056a017f4d9870a991f21d73.dir
+  size: 625552
   nfiles: 2
   hash: md5
   path: banana

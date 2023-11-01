@@ -1,6 +1,6 @@
 outs:
-- md5: 7f6e8fce26bd8a7ae700df7146c52a00.dir
-  size: 120024
+- md5: dc8ea9b8a7e633bb43dcfdb7a0fed43d.dir
+  size: 641112
   nfiles: 2
   hash: md5
   path: 1096_FacultySalaries

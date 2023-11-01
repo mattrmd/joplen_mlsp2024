@@ -1,6 +1,6 @@
 outs:
-- md5: a17c9c45d6f4c5dc8acdf4967c8e5aef.dir
-  size: 120031
+- md5: 3e0107ea1443d02069dbf007e392cf9c.dir
+  size: 645850
   nfiles: 2
   hash: md5
   path: 622_fri_c2_1000_50

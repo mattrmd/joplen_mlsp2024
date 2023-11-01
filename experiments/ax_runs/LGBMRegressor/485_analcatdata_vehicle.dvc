@@ -1,6 +1,6 @@
 outs:
-- md5: 9d99830c1f1083b62853eb5a4e1b7730.dir
-  size: 120072
+- md5: b74f880b2ed0bf36899b324a6ee79302.dir
+  size: 641000
   nfiles: 2
   hash: md5
   path: 485_analcatdata_vehicle

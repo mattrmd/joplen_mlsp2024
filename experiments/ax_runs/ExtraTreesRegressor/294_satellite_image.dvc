@@ -1,6 +1,6 @@
 outs:
-- md5: 3b23dd7c08b8cd8c321635e8cc6d93b4.dir
-  size: 112172
+- md5: b32220d4fd7051205abc47f1c75c53e8.dir
+  size: 625375
   nfiles: 2
   hash: md5
   path: 294_satellite_image
