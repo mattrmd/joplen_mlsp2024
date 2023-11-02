@@ -1,0 +1,5 @@
+outs:
+- md5: 6d4c76f73232a160e7b1c51f278a16fd
+  size: 413962
+  hash: md5
+  path: reg_strip.png

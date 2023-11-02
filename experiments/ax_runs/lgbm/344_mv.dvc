@@ -1,0 +1,6 @@
+outs:
+- md5: f718eb3cf87b75b0d3d237711f573960.dir
+  size: 645671
+  nfiles: 2
+  hash: md5
+  path: 344_mv
