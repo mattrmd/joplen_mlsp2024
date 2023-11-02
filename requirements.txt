@@ -9,5 +9,6 @@ pmlb==1.0.1.post3
 tqdm==4.65.0
 ax-platform==0.3.4
 lightgbm==4.1.0
+linear-tree==0.3.5
 
 -e ./joplen

@@ -1,0 +1,6 @@
+outs:
+- md5: df8150cec7d4cd4bf4bfbbd00d810019.dir
+  size: 657459
+  nfiles: 2
+  hash: md5
+  path: 192_vineyard
