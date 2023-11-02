@@ -1,0 +1,6 @@
+outs:
+- md5: deb2dca7285fba2c3e2655ed5f2eb2c4.dir
+  size: 626350
+  nfiles: 2
+  hash: md5
+  path: 627_fri_c2_500_10

@@ -1,0 +1,5 @@
+outs:
+- md5: abb06409d7eefff94408a1c56449c0f3
+  size: 474
+  hash: md5
+  path: et.yaml
