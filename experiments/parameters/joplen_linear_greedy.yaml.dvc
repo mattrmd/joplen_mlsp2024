@@ -1,0 +1,5 @@
+outs:
+- md5: 9aa0e98b41de09ded6a253bcd5af75b2
+  size: 823
+  hash: md5
+  path: joplen_linear_greedy.yaml
