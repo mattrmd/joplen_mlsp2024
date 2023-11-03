@@ -1,5 +1,5 @@
 outs:
-- md5: d8190eb0aacd2bb15a12bacc8f416e94
-  size: 825
+- md5: 35254da9aaaa9817640b8e36a356abcb
+  size: 524
   hash: md5
   path: joplen_const_greedy.yaml

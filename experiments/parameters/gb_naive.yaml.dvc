@@ -1,0 +1,5 @@
+outs:
+- md5: 5f881e19f20921501125f7954f459f85
+  size: 665
+  hash: md5
+  path: gb_naive.yaml

@@ -1,0 +1,6 @@
+outs:
+- md5: 79e4e637cc72ee8c85f552ec5cf0d9aa.dir
+  size: 632160
+  nfiles: 2
+  hash: md5
+  path: 620_fri_c1_1000_25
