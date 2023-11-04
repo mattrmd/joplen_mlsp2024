@@ -1,2 +1,5 @@
 [core]
     autostage = true
+    remote = umich-gdrive
+['remote "umich-gdrive"']
+    url = gdrive://1MJK6zNdbMJ6CjNdhDd64Kp46M4MGq4Dj
