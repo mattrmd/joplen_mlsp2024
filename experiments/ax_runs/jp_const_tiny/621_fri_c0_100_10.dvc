@@ -1,6 +1,6 @@
 outs:
-- md5: d86b22f9c42d96e02d8a0665e76cfd23.dir
-  size: 659163
+- md5: 611dc3f043bd020482f568bc59364c1c.dir
+  size: 659140
   nfiles: 2
   hash: md5
   path: 621_fri_c0_100_10
