@@ -1,0 +1,5 @@
+outs:
+- md5: d5116703ee8ffd2fb8d34421916a4cda
+  size: 217
+  hash: md5
+  path: ridge.yaml

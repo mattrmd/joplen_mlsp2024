@@ -1,0 +1,13 @@
+dir_name: lb
+name: "Linear boosting"
+description: "Linear boosted trees"
+model: "LinearBoostRegressor"
+experiments: ["st_selection"]
+parameters:
+- name: alpha
+  type: range
+  bounds: [1.0e-4, 1.0e+2]
+  log_scale: True
+- name: random_state
+  type: fixed
+  value: 0
