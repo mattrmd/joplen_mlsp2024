@@ -1,8 +1,9 @@
-dir_name: lb
-name: "Linear boosting"
-description: "Linear boosted trees"
-model: "LinearBoostRegressor"
+dir_name: lasso
+name: "LASSO"
+description: "LASSO"
+model: "Lasso"
 experiments: ["st_selection"]
+selection_type: "penalty"
 parameters:
 - name: alpha
   type: range

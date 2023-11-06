@@ -1,4 +1,7 @@
 [submodule "joplen"]
 	path = joplen
 	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/joplen/joplen.git
-	branch = 3-create-python-package-for-experiments
+	branch = main
+[submodule "ccm"]
+	path = ccm
+	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/joplen/competing-methods/ccm.git

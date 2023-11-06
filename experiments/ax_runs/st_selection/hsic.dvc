@@ -1,0 +1,6 @@
+outs:
+- md5: 0dea38dd084a94cf003b438b02cb8d2e.dir
+  size: 18662282
+  nfiles: 60
+  hash: md5
+  path: hsic

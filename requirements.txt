@@ -12,4 +12,9 @@ lightgbm==4.1.0
 linear-tree==0.3.5
 gputil==1.4.0
 
+# Our method
 -e ./joplen
+
+# Competing methods
+pyHSICLasso==1.4.2
+-e ./ccm
