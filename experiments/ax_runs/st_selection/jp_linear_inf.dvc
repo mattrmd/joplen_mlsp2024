@@ -1,6 +1,6 @@
 outs:
-- md5: 8b68f22519875415753f8d7115cde56a.dir
-  size: 5352062
-  nfiles: 16
+- md5: dc12de39c3685cde6b196311bcf6be0d.dir
+  size: 1337562
+  nfiles: 4
   hash: md5
   path: jp_linear_inf
