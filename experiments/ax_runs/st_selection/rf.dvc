@@ -1,0 +1,6 @@
+outs:
+- md5: 346a1c708319ba8e880212cd7e1abef5.dir
+  size: 19174332
+  nfiles: 60
+  hash: md5
+  path: rf
