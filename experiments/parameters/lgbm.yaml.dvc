@@ -1,5 +1,5 @@
 outs:
-- md5: 61c2666d6a9852cb216cd4adfc49f499
-  size: 654
+- md5: 3bdb06524be67e6f5e7b9e5591988aef
+  size: 682
   hash: md5
   path: lgbm.yaml

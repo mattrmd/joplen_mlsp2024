@@ -1,6 +1,6 @@
 outs:
-- md5: 7bcbece50008d48b0edb28a768eac874.dir
-  size: 654012
-  nfiles: 2
+- md5: 7d1b2537b152e7a496f14f1e93a47bc7.dir
+  size: 18322422
+  nfiles: 56
   hash: md5
   path: ccm
