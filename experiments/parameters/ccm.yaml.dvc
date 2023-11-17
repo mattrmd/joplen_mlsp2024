@@ -1,0 +1,5 @@
+outs:
+- md5: ed063c1dfa21b97ccda229fb998b9acb
+  size: 881
+  hash: md5
+  path: ccm.yaml
