@@ -1,0 +1,6 @@
+outs:
+- md5: 2d9a2466cb4a90d48ecf525dff4e51a6.dir
+  size: 43421948
+  nfiles: 130
+  hash: md5
+  path: jp_const_gb_part

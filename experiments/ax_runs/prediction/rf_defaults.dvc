@@ -1,0 +1,6 @@
+outs:
+- md5: 554c0895e9b0d4b88e20b4c23cc27fe2.dir
+  size: 39491679
+  nfiles: 130
+  hash: md5
+  path: rf_defaults

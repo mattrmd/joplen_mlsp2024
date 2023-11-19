@@ -19,3 +19,11 @@
 /joplen_linear_inf.yaml
 /lasso.yaml
 /ccm.yaml
+/gb_defaults.yaml
+/joplen_const_gb_part.yaml
+/joplen_const_mu.yaml
+/joplen_const_rf_part.yaml
+/joplen_either_gb_part.yaml
+/joplen_linear_gb_part.yaml
+/joplen_linear_rf_part.yaml
+/rf_defaults.yaml
