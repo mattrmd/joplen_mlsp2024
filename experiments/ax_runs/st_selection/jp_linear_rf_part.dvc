@@ -1,0 +1,6 @@
+outs:
+- md5: 7410ca9f9c179389870064fb593aeeb3.dir
+  size: 20070850
+  nfiles: 60
+  hash: md5
+  path: jp_linear_rf_part
