@@ -1,0 +1,6 @@
+outs:
+- md5: b34478d1808f26aab22992cdeeaab3d7.dir
+  size: 6908157
+  nfiles: 240
+  hash: md5
+  path: jp_linear_mu

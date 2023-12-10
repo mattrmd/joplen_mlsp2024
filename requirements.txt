@@ -3,7 +3,7 @@ matplotlib==3.8.0
 # seaborn==0.13.0
 scikit-learn==1.2.0
 black==23.10.1
-dvc==3.30.0
+dvc==3.33.3
 dvc-gdrive==2.20.0
 pmlb==1.0.1.post3
 tqdm==4.65.0
@@ -18,3 +18,6 @@ gputil==1.4.0
 # Competing methods
 pyHSICLasso==1.4.2
 -e ./ccm
+
+# implementation of masked multitask dirty lasso based on the MUTAR library
+mutar @ git+ssh://git@gitlab.eecs.umich.edu/mattrmd-vl-research/general-descriptors/competing-methods/mutar.git@5428bf20eb7f4818bd9386d411d27bb396a0b8e9#egg=mutar
