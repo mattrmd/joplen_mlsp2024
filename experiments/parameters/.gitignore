@@ -27,3 +27,5 @@
 /joplen_linear_gb_part.yaml
 /joplen_linear_rf_part.yaml
 /rf_defaults.yaml
+/joplen_linear_maxvar_part.yaml
+/joplen_linear_linforest_part.yaml

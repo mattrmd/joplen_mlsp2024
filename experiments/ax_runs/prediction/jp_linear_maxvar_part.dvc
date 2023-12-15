@@ -1,0 +1,6 @@
+outs:
+- md5: de2c011dcc337c3990a7a747fb17119e.dir
+  size: 102684042
+  nfiles: 130
+  hash: md5
+  path: jp_linear_maxvar_part
