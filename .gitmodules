@@ -5,9 +5,12 @@
 [submodule "ccm"]
 	path = ccm
 	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/joplen/competing-methods/ccm.git
-[submodule "general-descriptors-datasets"]
-	path = datasets/general-descriptors-datasets
-	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/datasets/general-descriptors-datasets.git
+# [submodule "datasets/general-descriptors-datasets"]
+# 	path = datasets/general-descriptors-datasets
+# 	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/datasets/general-descriptors-datasets.git
 [submodule "ml_utils"]
 	path = ml_utils
 	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/utilities/ml_utils.git
+[submodule "general-descriptors-datasets"]
+	path = datasets/general-descriptors-datasets
+	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/datasets/general-descriptors-datasets.git

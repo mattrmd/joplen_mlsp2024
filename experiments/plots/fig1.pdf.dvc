@@ -1,0 +1,5 @@
+outs:
+- md5: 38a6c0f5f156aca818e0ff4ec2baaa83
+  size: 33777
+  hash: md5
+  path: fig1.pdf
