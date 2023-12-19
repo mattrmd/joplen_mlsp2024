@@ -1,0 +1,6 @@
+outs:
+- md5: 194941b8290935d42d12e7112e3cc93e.dir
+  size: 2014695
+  nfiles: 6
+  hash: md5
+  path: jp_linear_lingb_part

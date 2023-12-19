@@ -11,9 +11,11 @@ ax-platform==0.3.4
 lightgbm==4.1.0
 linear-tree==0.3.5
 gputil==1.4.0
+cython==3.0.6
 
 # Our method
 -e ./joplen
+-e ./ml_utils
 
 # Competing methods
 pyHSICLasso==1.4.2
@@ -26,5 +28,6 @@ mutar @ git+ssh://git@gitlab.eecs.umich.edu/mattrmd-vl-research/general-descript
 ./GBDT-PL/python3/
 
 # fastel
-tensorflow_probability==0.21.0
-tensorflow==2.14.0
+# https://github.com/tensorflow/probability/releases/tag/v0.22.0
+tensorflow_probability==0.23.0
+tensorflow==2.15.0

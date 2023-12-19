@@ -1,2 +1,3 @@
 /datasets/pmlb/raw
-/my_env
+/my_env*
+__pycache__

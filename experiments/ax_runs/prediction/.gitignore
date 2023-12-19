@@ -8,3 +8,7 @@
 /rf_defaults
 /jp_linear_linforest_part
 /jp_linear_maxvar_part
+/fastel
+/jp_const_linforest_part
+/jp_linear_lingb_part
+/nn

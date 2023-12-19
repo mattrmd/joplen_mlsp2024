@@ -1,0 +1,6 @@
+outs:
+- md5: 3e26a74bed3788d5d7c74f6bd57f2514.dir
+  size: 43188312
+  nfiles: 130
+  hash: md5
+  path: fastel
