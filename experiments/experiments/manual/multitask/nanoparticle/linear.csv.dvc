@@ -1,0 +1,5 @@
+outs:
+- md5: 1ec8dc8d6f066a4753fd55f9d0abdca3
+  size: 494
+  hash: md5
+  path: linear.csv

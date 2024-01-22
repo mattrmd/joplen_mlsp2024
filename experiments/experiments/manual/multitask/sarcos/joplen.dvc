@@ -1,0 +1,6 @@
+outs:
+- md5: f4a49f22e8922003c0dab12f138140a9.dir
+  size: 985856
+  nfiles: 2
+  hash: md5
+  path: joplen
