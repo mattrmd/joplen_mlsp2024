@@ -1,6 +1,0 @@
-outs:
-- md5: ec2a7c9f4ed0596dcaa31cdc89c5563e.dir
-  size: 645137
-  nfiles: 2
-  hash: md5
-  path: 561_cpu
