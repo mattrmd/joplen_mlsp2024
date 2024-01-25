@@ -1,5 +1,5 @@
 outs:
-- md5: e54407620193fb60a853013fbf1d1b52
-  size: 424
+- md5: 6e80aee57991554ddd6bedafcc010554
+  size: 423
   hash: md5
   path: gb_defaults.yaml
