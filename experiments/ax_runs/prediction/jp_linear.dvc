@@ -1,0 +1,6 @@
+outs:
+- md5: f293fe22c01f66a1ae49d11e74917a1f.dir
+  size: 46832672
+  nfiles: 142
+  hash: md5
+  path: jp_linear
