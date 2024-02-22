@@ -1,0 +1,6 @@
+outs:
+- md5: bd259b3fcb722ff4fa2ffd4a876c78b8.dir
+  size: 45379530
+  nfiles: 138
+  hash: md5
+  path: old_gb
