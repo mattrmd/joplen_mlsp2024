@@ -1,0 +1,6 @@
+outs:
+- md5: be2b3d1a8b013652f55b29758e96bc0b.dir
+  size: 42759910
+  nfiles: 138
+  hash: md5
+  path: jp_const_greedy

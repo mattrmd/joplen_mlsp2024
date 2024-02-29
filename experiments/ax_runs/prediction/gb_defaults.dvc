@@ -1,0 +1,6 @@
+outs:
+- md5: 8e1220b2e0c3d6280edcf5c96204dd4c.dir
+  size: 41918569
+  nfiles: 138
+  hash: md5
+  path: gb_defaults

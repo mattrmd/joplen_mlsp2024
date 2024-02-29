@@ -1,0 +1,6 @@
+outs:
+- md5: 8615f9d010114b1950f37ee3e3674cd5.dir
+  size: 3354307
+  nfiles: 10
+  hash: md5
+  path: jp_linear_maxvar_part
