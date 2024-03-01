@@ -29,11 +29,13 @@ class FeatureSelectionLayer(Layer):
 
 
 class NN(BaseEstimator, ClassifierMixin):
-    def __init__(self, hidden_layer_size, n_hidden_layers, activation, sel_feat=False):
+    def __init__(self, hidden_layer_size, n_hidden_layers, activation, sel_feat=False, is_classifier=False):
         self.hidden_layer_size = hidden_layer_size
         self.n_hidden_layers = n_hidden_layers
         self.activation = activation
         self.sel_feat = sel_feat
+        self.is_classifier = is_classifier
+        self.output_activation = "sigmoid" if is_classifier else "linear"
 
     def build_model(self, input_shape, lambda_val=0, alpha=0):
         inputs = Input(shape=input_shape)
@@ -55,7 +57,7 @@ class NN(BaseEstimator, ClassifierMixin):
             )(x)
 
         # Output layer for regression
-        outputs = Dense(1, activation="linear")(x)
+        outputs = Dense(1, activation=self.output_activation)(x)
 
         self.model = Model(inputs=inputs, outputs=outputs)
         self.model.compile(
@@ -101,7 +103,10 @@ class NN(BaseEstimator, ClassifierMixin):
 
     def score(self, X, y):
         y_pred = self.predict(X)
-        return tf.keras.losses.mean_squared_error(y, y_pred).numpy()
+        if self.is_classifier:
+            return tf.keras.losses.binary_crossentropy(y, y_pred).numpy()
+        else:
+            return tf.keras.losses.mean_squared_error(y, y_pred).numpy()
 
     def get_feature_selection_weights(self):
         if self.sel_feat and hasattr(self, "feature_selection_layer"):
