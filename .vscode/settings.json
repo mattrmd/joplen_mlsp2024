@@ -9,5 +9,6 @@
             "cmd": "echo test"
         },
     ]
-}
+},
+"editor.formatOnSave": true
 }
