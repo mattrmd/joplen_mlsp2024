@@ -1,0 +1,6 @@
+outs:
+- md5: 0abb1eb7c8da866352eb7beca964f129.dir
+  size: 67468919
+  nfiles: 202
+  hash: md5
+  path: jp_const_rf_part

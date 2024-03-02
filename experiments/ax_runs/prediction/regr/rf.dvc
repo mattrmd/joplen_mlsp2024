@@ -1,0 +1,6 @@
+outs:
+- md5: 197c5ae13f787808d22ee539a1aae208.dir
+  size: 65168564
+  nfiles: 204
+  hash: md5
+  path: rf
