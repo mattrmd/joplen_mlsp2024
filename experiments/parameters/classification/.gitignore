@@ -29,11 +29,9 @@
 /rf_defaults.yaml
 /joplen_linear_maxvar_part.yaml
 /joplen_linear_linforest_part.yaml
-/nn.yaml
 /joplen_linear_lingb_part.yaml
 /joplen_const_linforest_part.yaml
-/fastel.yaml
-/hsic.yaml
 /joplen_const_gb_part_l2.yaml
 /joplen_const_gb_part_sl2.yaml
 /joplen_const_gb_part_l1.yaml
+/fastel.yaml
