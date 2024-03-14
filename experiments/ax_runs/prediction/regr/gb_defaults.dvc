@@ -1,6 +1,6 @@
 outs:
-- md5: 8e1220b2e0c3d6280edcf5c96204dd4c.dir
-  size: 41918569
-  nfiles: 138
+- md5: 48916f34e467247fac3c4e8e05e76ebb.dir
+  size: 41902786
+  nfiles: 69
   hash: md5
   path: gb_defaults
