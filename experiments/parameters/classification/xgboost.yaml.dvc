@@ -1,5 +1,0 @@
-outs:
-- md5: 5a3bd40f5da24fb18d7565db66d22d14
-  size: 824
-  hash: md5
-  path: xgboost.yaml

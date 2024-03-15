@@ -1,0 +1,5 @@
+outs:
+- md5: ecae12f04899285aa600ab62e82cbc31
+  size: 527
+  hash: md5
+  path: lf.yaml

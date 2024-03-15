@@ -1,0 +1,5 @@
+outs:
+- md5: fbfa278783e840a6ba63fd3eaa50ffe2
+  size: 868
+  hash: md5
+  path: fastel.yaml

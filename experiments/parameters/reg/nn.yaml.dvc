@@ -1,0 +1,5 @@
+outs:
+- md5: 517135cd16c0d8fe07d9d73ea6f31ffa
+  size: 869
+  hash: md5
+  path: nn.yaml

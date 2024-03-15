@@ -1,0 +1,5 @@
+outs:
+- md5: 920e621ee2ff4fa15994cd9779630732
+  size: 797
+  hash: md5
+  path: gb.yaml

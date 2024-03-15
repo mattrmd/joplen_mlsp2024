@@ -1,0 +1,5 @@
+outs:
+- md5: 22608573017f9a6fd45ac4274114cc67
+  size: 657
+  hash: md5
+  path: rf.yaml
