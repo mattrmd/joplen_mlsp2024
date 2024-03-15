@@ -1,5 +1,5 @@
 outs:
-- md5: 102583578bd1b7b6dd8e2d87fc895e88
-  size: 10110
+- md5: b62963dc30feeef2a1c6f217c48e8c9e
+  size: 805186
   hash: md5
   path: class_metadata.yaml
