@@ -1,0 +1,6 @@
+outs:
+- md5: b9b53c77b3560ac2f7cdae897fdb61d1.dir
+  size: 64408136
+  nfiles: 196
+  hash: md5
+  path: cb_bs

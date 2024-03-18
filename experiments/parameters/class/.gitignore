@@ -36,4 +36,8 @@
 /joplen_const_gb_part_l1.yaml
 /fastel.yaml
 /xgboost.yaml
+/catboost_bs.yaml
+/catboost_drop.yaml
+/jp_cb_stop.yaml
+/jp_cb.yaml
 /catboost.yaml

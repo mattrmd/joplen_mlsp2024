@@ -1,0 +1,5 @@
+outs:
+- md5: 2abc437cf91d61dd138516c0bdf0d2a5
+  size: 1709
+  hash: md5
+  path: jp_cb_stop.yaml

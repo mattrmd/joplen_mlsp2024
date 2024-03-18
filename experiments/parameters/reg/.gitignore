@@ -39,5 +39,8 @@
 /joplen_const_gb_part_l1.yaml
 /adaboost.yaml
 /xgboost.yaml
-/catboost.yaml
 /jp_cb.yaml
+/catboost_bs.yaml
+/catboost_drop.yaml
+/jp_cb_stop.yaml
+/catboost.yaml

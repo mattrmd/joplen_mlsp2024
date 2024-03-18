@@ -1,0 +1,5 @@
+outs:
+- md5: ab1b2ff6da95fdc30ddd46ae2d258047
+  size: 1109
+  hash: md5
+  path: catboost_drop.yaml

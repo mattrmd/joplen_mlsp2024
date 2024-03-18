@@ -1,0 +1,6 @@
+outs:
+- md5: fcbdb7cd7346b6f9a02637a4751f792d.dir
+  size: 64935130
+  nfiles: 196
+  hash: md5
+  path: cb_drop

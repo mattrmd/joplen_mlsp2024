@@ -1,0 +1,6 @@
+outs:
+- md5: 1f3ed834ac7a4226d2ecffba4e9a2f66.dir
+  size: 73870170
+  nfiles: 196
+  hash: md5
+  path: jp_cb_stop
