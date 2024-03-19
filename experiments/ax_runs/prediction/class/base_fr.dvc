@@ -1,0 +1,6 @@
+outs:
+- md5: 1f0b0b03d040082268d9a7fd5b725a8c.dir
+  size: 41886278
+  nfiles: 114
+  hash: md5
+  path: base_fr

@@ -1,0 +1,5 @@
+outs:
+- md5: 3f5512004894590c0ed860a964318ab8
+  size: 1091
+  hash: md5
+  path: catboost_dw.yaml
