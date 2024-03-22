@@ -1,6 +1,6 @@
 outs:
-- md5: ce49a6df2dddd732b1424c5ee5846b2c.dir
-  size: 36098439
+- md5: 69a3df7b22711d348d434fb0c8b53e5f.dir
+  size: 53460
   nfiles: 120
   hash: md5
   path: lasso

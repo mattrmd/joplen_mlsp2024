@@ -1,0 +1,5 @@
+outs:
+- md5: 3647f4682a209b125034f39f441baa2f
+  size: 197
+  hash: md5
+  path: lasso.yaml

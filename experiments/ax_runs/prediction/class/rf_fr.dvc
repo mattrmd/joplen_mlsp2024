@@ -1,0 +1,6 @@
+outs:
+- md5: be6a61fdc32fa9abf92141d1df59977a.dir
+  size: 39594848
+  nfiles: 114
+  hash: md5
+  path: rf_fr

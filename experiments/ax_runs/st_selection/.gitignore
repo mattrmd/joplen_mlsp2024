@@ -1,9 +1,7 @@
-/ccm
-/hsic
-/jp_linear_mu
-/lasso
 /gb
-/rf
-/jp_linear_inf
+/hsic
 /jp_linear_gb_part
+/jp_linear_linforest_part
 /jp_linear_rf_part
+/lasso
+/rf

@@ -1,0 +1,5 @@
+outs:
+- md5: ed59e4f4f584ad15b1674cb922de4432
+  size: 530
+  hash: md5
+  path: hsic.yaml
