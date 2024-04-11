@@ -1,0 +1,6 @@
+outs:
+- md5: 7bf5a617164797e7f0ac9bfa942de0bf.dir
+  size: 38265437
+  nfiles: 116
+  hash: md5
+  path: jp_linear_gb_part
