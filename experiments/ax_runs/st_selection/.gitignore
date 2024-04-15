@@ -1,7 +1,6 @@
 /gb
 /hsic
-/jp_linear_gb_part
-/jp_linear_linforest_part
-/jp_linear_rf_part
+/jp_linear_gb_l21L2
+/jp_linear_gb_linf1L2
 /lasso
 /rf
