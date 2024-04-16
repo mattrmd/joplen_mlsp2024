@@ -1,0 +1,6 @@
+outs:
+- md5: b4e6ec8fb5c6317f75eb8790fc04129c.dir
+  size: 1047827
+  nfiles: 40
+  hash: md5
+  path: crime

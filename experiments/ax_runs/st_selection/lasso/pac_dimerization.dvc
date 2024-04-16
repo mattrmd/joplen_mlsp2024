@@ -1,0 +1,6 @@
+outs:
+- md5: 6aa62f39481c65fd2e8acfe699e53df0.dir
+  size: 9028
+  nfiles: 20
+  hash: md5
+  path: pac_dimerization

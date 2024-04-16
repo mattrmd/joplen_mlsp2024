@@ -1,0 +1,6 @@
+outs:
+- md5: acd60d872190092e38c4b71a195a73a0.dir
+  size: 1273802
+  nfiles: 40
+  hash: md5
+  path: boston

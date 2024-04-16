@@ -1,0 +1,6 @@
+outs:
+- md5: f5127492d4b57543faa75bd693aef622.dir
+  size: 1047621
+  nfiles: 40
+  hash: md5
+  path: boston

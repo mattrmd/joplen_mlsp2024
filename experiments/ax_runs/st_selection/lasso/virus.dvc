@@ -1,0 +1,6 @@
+outs:
+- md5: d6a6b3ea3f6c34c311fa8ca1d5ef8519.dir
+  size: 8977
+  nfiles: 20
+  hash: md5
+  path: virus
