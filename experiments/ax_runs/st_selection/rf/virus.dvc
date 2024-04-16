@@ -1,6 +1,6 @@
 outs:
-- md5: 61945c01135a5d98685f8fa806e6720b.dir
-  size: 1133642
+- md5: 83210c2a36b277a63ebec1fbfb5ebf79.dir
+  size: 1133753
   nfiles: 40
   hash: md5
   path: virus
