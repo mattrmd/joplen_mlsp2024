@@ -1,0 +1,6 @@
+outs:
+- md5: a9285e4b845a91f27c737edce5699024.dir
+  size: 37173711
+  nfiles: 112
+  hash: md5
+  path: jp_linear_gb_inf

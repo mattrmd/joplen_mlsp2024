@@ -1,6 +1,6 @@
 outs:
-- md5: 42be13d64b598c8ab2ec38af1c823bfe.dir
-  size: 1664457
+- md5: ad4fdda43e90026187399cbd582326f0.dir
+  size: 1628324
   nfiles: 40
   hash: md5
   path: riboflavin

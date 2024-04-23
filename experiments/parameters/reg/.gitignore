@@ -34,9 +34,6 @@
 /joplen_const_linforest_part.yaml
 /fastel.yaml
 /hsic.yaml
-/joplen_const_gb_part_l2.yaml
-/joplen_const_gb_part_sl2.yaml
-/joplen_const_gb_part_l1.yaml
 /adaboost.yaml
 /xgboost.yaml
 /jp_cb.yaml
@@ -48,14 +45,8 @@
 /gb_fr.yaml
 /jp_cb copy.yaml
 /rf_fr.yaml
-/joplen_const_gb_part_l2L2.yaml
-/joplen_const_gb_part_L2.yaml
-/joplen_const_gb_part_sl2L2.yaml
 /joplen_const_vor.yaml
 /joplen_linear_vor.yaml
-/joplen_const_gb_part_choose_l2L2.yaml
-/joplen_const_gb_part_tree_L2.yaml
-/joplen_linear_gb_part_l2L2.yaml
 /joplen_const_gb_l1.yaml
 /joplen_const_gb_l2L2.yaml
 /joplen_const_gb_l2.yaml
@@ -80,3 +71,4 @@
 /joplen_linear_vor_inf.yaml
 /joplen_linear_vor_l2L2.yaml
 /joplen_linear_vor_l2.yaml
+/joplen_linear_gb_nn.yaml
