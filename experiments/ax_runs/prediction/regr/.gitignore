@@ -46,3 +46,7 @@
 /jp_const_gb_nn
 /jp_linear_gb_nn
 /nn
+/jp_linear_gb_l21
+/jp_linear_linforest_l21
+/jp_linear_rf_l21
+/lgbm

@@ -62,3 +62,8 @@
 /joplen_linear_vor_inf.yaml
 /joplen_linear_vor_l2L2.yaml
 /joplen_linear_vor_l2.yaml
+/joplen_const_gb_l2.yaml
+/joplen_linear_gb_l21.yaml
+/joplen_linear_linforest_l21.yaml
+/joplen_linear_rf_l21.yaml
+/nn.yaml

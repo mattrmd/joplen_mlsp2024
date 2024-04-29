@@ -29,13 +29,17 @@ class FeatureSelectionLayer(Layer):
 
 
 class NN(BaseEstimator, ClassifierMixin):
-    def __init__(self, hidden_layer_size, n_hidden_layers, activation, sel_feat=False, is_classifier=False):
+
+    def __init__(
+        self, hidden_layer_size, n_hidden_layers, activation, loss, sel_feat=False
+    ):
         self.hidden_layer_size = hidden_layer_size
         self.n_hidden_layers = n_hidden_layers
         self.activation = activation
         self.sel_feat = sel_feat
-        self.is_classifier = is_classifier
-        self.output_activation = "sigmoid" if is_classifier else "linear"
+        self.loss = loss
+        self.is_classifier = self.loss == "binary_crossentropy"
+        self.output_activation = "sigmoid" if self.is_classifier else "linear"
 
     def build_model(self, input_shape, lambda_val=0, alpha=0):
         inputs = Input(shape=input_shape)
@@ -62,7 +66,7 @@ class NN(BaseEstimator, ClassifierMixin):
         self.model = Model(inputs=inputs, outputs=outputs)
         self.model.compile(
             optimizer=tf.keras.optimizers.Adam(learning_rate=self.learning_rate),
-            loss="mean_squared_error",
+            loss=self.loss,
         )
 
     def fit(

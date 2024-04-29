@@ -1,0 +1,6 @@
+outs:
+- md5: 8e2e5a3cdf620a6e7aec4a1dee8d91a9.dir
+  size: 34061694
+  nfiles: 112
+  hash: md5
+  path: ridge

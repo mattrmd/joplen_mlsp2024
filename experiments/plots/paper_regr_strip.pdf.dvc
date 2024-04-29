@@ -1,0 +1,5 @@
+outs:
+- md5: 1543abc009367589c7c88ea6b72036fa
+  size: 37580
+  hash: md5
+  path: paper_regr_strip.pdf

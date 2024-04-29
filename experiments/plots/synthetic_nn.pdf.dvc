@@ -1,0 +1,5 @@
+outs:
+- md5: 3d5b45c820ae8341d135571683adaea4
+  size: 7122776
+  hash: md5
+  path: synthetic_nn.pdf

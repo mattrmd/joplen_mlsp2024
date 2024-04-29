@@ -1,0 +1,6 @@
+outs:
+- md5: 238f5833aedd724e8359f5573290acf3.dir
+  size: 2018224
+  nfiles: 6
+  hash: md5
+  path: lgbm

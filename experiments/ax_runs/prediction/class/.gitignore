@@ -33,3 +33,10 @@
 /jp_linear_vor_l2
 /jp_linear_vor_l2L2
 /lf
+/jp_const_gb_l2
+/jp_linear_gb_l21
+/jp_linear_linforest_l21
+/jp_linear_rf_l21
+/lgbm
+/nn
+/ridge
