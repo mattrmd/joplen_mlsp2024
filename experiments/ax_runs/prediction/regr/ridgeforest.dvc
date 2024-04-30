@@ -1,0 +1,6 @@
+outs:
+- md5: f1c593483860a3686c2f36a59accae91.dir
+  size: 39503679
+  nfiles: 125
+  hash: md5
+  path: ridgeforest
