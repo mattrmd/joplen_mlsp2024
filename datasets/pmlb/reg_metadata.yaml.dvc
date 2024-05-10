@@ -1,5 +1,5 @@
 outs:
-- md5: ba2436a5c6fdb367a184b3f4d7d9faeb
-  size: 332337
+- md5: 7383db68d08b29085ab695c9a2f72458
+  size: 328812
   hash: md5
   path: reg_metadata.yaml
