@@ -10,6 +10,8 @@ conda config --set env_prompt '(my_env) '
 pip install -r requirements.txt
 ```
 
+==The zip file for peer review already contains all data and results.==
+
 ## Downloading the data
 
 Most of the data will be downloaded automatically when the code is run.
