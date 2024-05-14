@@ -18,8 +18,11 @@ convert_to_https() {
 
 # Iterate over each submodule
 git config --file .gitmodules --get-regexp '^submodule\..*\.path$' | while read path_key submodule_path; do
+    # Extract the last part of the submodule path
+    submodule_name=$(basename "$submodule_path")
+
     # Extract the current URL of the submodule
-    url_key="submodule.${submodule_path}.url"
+    url_key="submodule.${submodule_name}.url"
     current_url=$(git config --file .gitmodules --get "$url_key")
 
     case "$1" in
@@ -38,7 +41,7 @@ git config --file .gitmodules --get-regexp '^submodule\..*\.path$' | while read 
     # Update the submodule URL
     if [ "$current_url" != "$new_url" ]; then
         echo "Changing submodule URL from $current_url to $new_url"
-        git config --file .gitmodules "submodule.${submodule_path}.url" "$new_url"
+        git config --file .gitmodules "submodule.${submodule_name}.url" "$new_url"
     fi
 done
 

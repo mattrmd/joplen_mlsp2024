@@ -1,0 +1,27 @@
+contains_categorical: false
+dummy_loss: 15.769098357738756
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.4375
+metadata:
+  test:
+    auc: 1.0
+    zo_loss: 0.0
+  val:
+    auc: 1.0
+    zo_loss: 0.0
+model_name: CatBoostClassifier
+params:
+  allow_writing_files: false
+  grow_policy: SymmetricTree
+  iterations: 118
+  l2_leaf_reg: 2.4747339652031552e-05
+  learning_rate: 0.31724792413661645
+  max_depth: 3
+  od_type: Iter
+  od_wait: 67
+  random_seed: 0
+  subsample: 1.0
+test_score: 1.4242579610436798e-05
+train_time: 0.07058525085449219
+val_score: 1.083879667770511e-05

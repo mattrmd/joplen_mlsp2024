@@ -1,0 +1,56 @@
+dir_name: gb_fr
+model: "FriedmanRefit"
+handles_categorical: False
+parameters:
+- name: base_learning_rate
+  type: range
+  bounds: [1.0e-5, 1.0]
+  value_type: float
+- name: base_n_estimators
+  type: range
+  bounds: [10, 1000]
+  value_type: int
+  log_scale: True
+- name: base_criterion
+  type: choice
+  values: ["friedman_mse", "squared_error"]
+  value_type: str
+  is_ordered: True
+- name: base_max_leaf_nodes
+  type: range
+  bounds: [2, 32]
+  value_type: int
+- name: base_ccp_alpha
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: base_max_depth
+  type: range
+  bounds: [1, 5]
+  value_type: int
+- name: refit_C
+  type: range
+  bounds: [1.0e-5, 1000]
+  value_type: float
+  log_scale: True
+- name: refit_penalty
+  type: fixed
+  value: "l1"
+  value_type: str
+- name: refit_model
+  type: fixed
+  value: "LogisticRegression"
+  value_type: str
+- name: refit_solver
+  type: fixed
+  value: "saga"
+  value_type: str
+- name: base_model
+  type: fixed
+  value: "GradientBoostingClassifier"
+  value_type: str
+- name: shared_random_state
+  type: fixed
+  value: 0
+  value_type: int

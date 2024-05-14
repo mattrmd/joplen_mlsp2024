@@ -1,0 +1,20 @@
+contains_categorical: postprocessed
+dummy_loss: 6.758185010459466
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.1875
+metadata:
+  test:
+    auc: 0.5897435897435898
+    zo_loss: 0.125
+  val:
+    auc: 0.6533333333333333
+    zo_loss: 0.16129032258064513
+model_name: LogisticRegression
+params:
+  C: 0.1
+  penalty: l2
+  random_state: 0
+test_score: 0.4582238601716385
+train_time: 0.0053517818450927734
+val_score: 0.4580591379435034

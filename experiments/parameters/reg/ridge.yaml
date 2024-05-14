@@ -1,0 +1,9 @@
+dir_name: ridge
+model: "Ridge"
+handles_categorical: False
+parameters:
+- name: alpha
+  type: range
+  bounds: [1.0e-5, 10]
+  value_type: float
+  log_scale: True

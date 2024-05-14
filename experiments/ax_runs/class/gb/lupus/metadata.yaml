@@ -1,0 +1,25 @@
+contains_categorical: false
+dummy_loss: 16.019401506274292
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.4444444444444444
+metadata:
+  test:
+    auc: 0.7
+    zo_loss: 0.33333333333333337
+  val:
+    auc: 0.8831168831168832
+    zo_loss: 0.16666666666666663
+model_name: GradientBoostingClassifier
+params:
+  ccp_alpha: 0.013940105108880439
+  criterion: squared_error
+  learning_rate: 0.9960814001611923
+  loss: log_loss
+  max_depth: 5
+  max_leaf_nodes: 12
+  n_estimators: 381
+  random_state: 0
+test_score: 0.5829407461610848
+train_time: 0.10097455978393555
+val_score: 0.38614783108339495

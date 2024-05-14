@@ -1,0 +1,25 @@
+contains_categorical: false
+dummy_loss: 0.8415568740561242
+dummy_metadata: {}
+metadata:
+  n_epochs: 146
+  test: {}
+  val: {}
+model_name: JOPLEn
+params:
+  SquaredFNorm_lam: 0.0010224634198115726
+  SquaredLaplacian_lam: 9.59624685792028e-05
+  SquaredLaplacian_laplacian_type: LaplacianType.LEFT_NORMALIZED
+  SquaredLaplacian_sigma: 16.30753653823523
+  cell_model: CellModel.linear
+  loss_fn: SquaredError
+  max_iters: 100000
+  mu: 7.188610322269802
+  n_cells: 5
+  n_partitions: 849
+  partitioner: GBPartition
+  random_state: 0
+  verbose: false
+test_score: 0.3111759890254032
+train_time: 0.8986201286315918
+val_score: 0.25470713474925705

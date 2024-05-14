@@ -1,0 +1,46 @@
+dir_name: jp_const_vor_l2
+model: "JOPLEn"
+handles_categorical: False
+parameters:
+- name: n_cells
+  type: range
+  bounds: [2, 32]
+  value_type: int
+- name: n_partitions
+  type: range
+  bounds: [10, 1000]
+  value_type: int
+  log_scale: True
+- name: "SquaredFNorm_lam"
+  type: range
+  bounds: [1.0e-5, 1.0e+3]
+  value_type: float
+  log_scale: True
+- name: mu
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+- name: random_state
+  type: fixed
+  value: 0
+  value_type: int
+- name: partitioner
+  type: fixed
+  value: "VPartition"
+  value_type: str
+- name: cell_model
+  type: fixed
+  value: "CellModel.constant"
+  value_type: str
+- name: max_iters
+  type: fixed
+  value: 100000
+  value_type: int
+- name: verbose
+  type: fixed
+  value: false
+  value_type: bool
+- name: loss_fn
+  type: fixed
+  value: "LogisticLoss"
+  value_type: str

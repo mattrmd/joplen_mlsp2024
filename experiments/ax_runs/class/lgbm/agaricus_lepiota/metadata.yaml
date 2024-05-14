@@ -1,0 +1,26 @@
+contains_categorical: postprocessed
+dummy_loss: 17.336333900041623
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.48098159509202454
+metadata:
+  test:
+    auc: 0.8823032759202972
+    zo_loss: 0.19263803680981595
+  val:
+    auc: 0.8821313866406705
+    zo_loss: 0.19533169533169537
+model_name: LGBMClassifier
+params:
+  early_stopping_rounds: 54
+  learning_rate: 1.0
+  n_estimators: 1000
+  num_leaves: 12
+  objective: binary
+  random_state: 0
+  reg_alpha: 0.00011267330932465744
+  reg_lambda: 0.0005646995152303596
+  verbose: -1
+test_score: 0.40623452511685443
+train_time: 0.1212458610534668
+val_score: 0.4036462644595247

@@ -1,6 +1,0 @@
-outs:
-- md5: 58b89af6f303a44db1a229a292d6c263.dir
-  size: 258171
-  nfiles: 7
-  hash: md5
-  path: tic_tac_toe

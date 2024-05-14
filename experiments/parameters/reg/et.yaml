@@ -1,0 +1,30 @@
+dir_name: et
+model: "ExtraTreesRegressor"
+handles_categorical: False
+parameters:
+- name: n_estimators
+  type: range
+  bounds: [10, 1000]
+  value_type: int
+  log_scale: True
+- name: criterion
+  type: choice
+  values: ["friedman_mse", "squared_error"]
+  value_type: str
+  is_ordered: True
+- name: max_leaf_nodes
+  type: range
+  bounds: [2, 32]
+  value_type: int
+- name: max_depth
+  type: range
+  bounds: [1, 5]
+  value_type: int
+- name: random_state
+  type: fixed
+  value: 0
+  value_type: int
+- name: max_features
+  type: fixed
+  value: 1
+  value_type: int

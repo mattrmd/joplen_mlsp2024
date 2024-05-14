@@ -1,0 +1,26 @@
+contains_categorical: false
+dummy_loss: 18.021826694558577
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.5
+metadata:
+  test:
+    auc: 0.9985317750182615
+    zo_loss: 0.020270270270270285
+  val:
+    auc: 0.9976666788574773
+    zo_loss: 0.024340770791075106
+model_name: XGBClassifier
+params:
+  early_stopping_rounds: 57
+  learning_rate: 0.4842969809225484
+  max_leaves: 2
+  n_estimators: 372
+  objective: reg:logistic
+  random_state: 0
+  reg_alpha: 0.3971325592846434
+  reg_lambda: 2.6872788612630543e-05
+  verbosity: 0
+test_score: 0.05055239533215541
+train_time: 1.246765375137329
+val_score: 0.061715597622175496

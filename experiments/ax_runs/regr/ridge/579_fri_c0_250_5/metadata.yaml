@@ -1,0 +1,12 @@
+contains_categorical: false
+dummy_loss: 0.8415568740561242
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: Ridge
+params:
+  alpha: 1.0e-05
+test_score: 0.6480482158130515
+train_time: 0.0010645389556884766
+val_score: 0.4572804652997467

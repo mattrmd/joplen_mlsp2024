@@ -1,0 +1,20 @@
+contains_categorical: postprocessed
+dummy_loss: 62.25354817401098
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: MultiTaskTrees
+params:
+  alpha: 7.445310254589828
+  batch_size: 64
+  depth: 1
+  epochs: 10000
+  learning_rate: 0.0012005732824714739
+  loss_criteria: mse
+  num_tasks: 1
+  num_trees: 6
+  power: 0.2969734257113112
+test_score: 94.22209517776977
+train_time: 1.7867634296417236
+val_score: 96.098958294444

@@ -1,0 +1,31 @@
+contains_categorical: false
+dummy_loss: 18.021826694558577
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.5
+metadata:
+  n_epochs: 109
+  test:
+    auc: 0.7777777777777778
+    zo_loss: 0.5
+  val:
+    auc: 0.9
+    zo_loss: 0.09090909090909094
+model_name: JOPLEn
+params:
+  SquaredFNorm_lam: 0.06669088189135694
+  SquaredLaplacian_lam: 0.0002165957888225078
+  SquaredLaplacian_laplacian_type: LaplacianType.LEFT_NORMALIZED
+  SquaredLaplacian_sigma: 1.490337822999539
+  cell_model: CellModel.linear
+  loss_fn: LogisticLoss
+  max_iters: 100000
+  mu: 7.0529040434889145
+  n_cells: 2
+  n_partitions: 104
+  partitioner: LinearForestPartition
+  random_state: 0
+  verbose: false
+test_score: 0.8521609310127354
+train_time: 0.4112420082092285
+val_score: 0.3079511634009557

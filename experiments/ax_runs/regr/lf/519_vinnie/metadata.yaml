@@ -1,0 +1,16 @@
+contains_categorical: postprocessed
+dummy_loss: 3.0353621854048076
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: LinearForestRegressor
+params:
+  ccp_alpha: 5.3344210982932525
+  max_depth: 3
+  max_leaf_nodes: 32
+  n_estimators: 10
+  random_state: 0
+test_score: 1.3544931395758966
+train_time: 0.007894515991210938
+val_score: 1.6360117137821626

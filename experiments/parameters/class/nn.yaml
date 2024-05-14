@@ -1,0 +1,45 @@
+dir_name: nn
+model: "NN"
+handles_categorical: False
+selection_type: "num_feats"
+parameters:
+- name: hidden_layer_size
+  type: range
+  bounds: [10, 100]
+  value_type: int
+  log_scale: False
+- name: n_hidden_layers
+  type: range
+  bounds: [1, 4]
+  value_type: int
+  log_scale: False
+- name: activation
+  type: choice
+  values: ["relu", "sigmoid"]
+  value_type: str
+- name: batch_size
+  type: choice
+  values: [16,32,64,128,256,512,1024]
+  value_type: int
+- name: learning_rate
+  type: range
+  bounds: [1.0e-3, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: alpha
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: patience
+  type: fixed
+  value: 100
+  value_type: int
+- name: epochs
+  type: fixed
+  value: 10000
+  value_type: int
+- name: loss_criteria
+  type: fixed
+  value: "binary_crossentropy"
+  value_type: str

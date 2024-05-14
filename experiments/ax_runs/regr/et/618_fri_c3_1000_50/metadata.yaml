@@ -1,0 +1,17 @@
+contains_categorical: false
+dummy_loss: 0.9147972762172195
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: ExtraTreesRegressor
+params:
+  criterion: friedman_mse
+  max_depth: 5
+  max_features: 1
+  max_leaf_nodes: 32
+  n_estimators: 336
+  random_state: 0
+test_score: 0.8867127395296711
+train_time: 0.13413476943969727
+val_score: 1.0061194747301496

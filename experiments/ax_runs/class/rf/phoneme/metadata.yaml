@@ -1,0 +1,24 @@
+contains_categorical: false
+dummy_loss: 10.593236393474356
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.2939001848428835
+metadata:
+  test:
+    auc: 0.8979222233198327
+    zo_loss: 0.18669131238447323
+  val:
+    auc: 0.8987580156364343
+    zo_loss: 0.17592592592592593
+model_name: RandomForestClassifier
+params:
+  ccp_alpha: 1.9063932136900738e-05
+  criterion: log_loss
+  max_depth: 5
+  max_leaf_nodes: 30
+  n_estimators: 31
+  n_jobs: -1
+  random_state: 0
+test_score: 0.36318422390905664
+train_time: 0.07093477249145508
+val_score: 0.36482674607689297

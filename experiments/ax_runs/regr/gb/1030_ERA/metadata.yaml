@@ -1,0 +1,18 @@
+contains_categorical: false
+dummy_loss: 2.001430100947718
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: GradientBoostingRegressor
+params:
+  ccp_alpha: 0.0047497825169275166
+  criterion: squared_error
+  learning_rate: 0.2914813091730306
+  max_depth: 1
+  max_leaf_nodes: 23
+  n_estimators: 163
+  random_state: 0
+test_score: 1.5424449061755183
+train_time: 0.040125131607055664
+val_score: 1.5541699999541438

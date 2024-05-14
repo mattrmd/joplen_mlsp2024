@@ -1,0 +1,21 @@
+contains_categorical: false
+dummy_loss: 1.141870229261486
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: FriedmanRefit
+params:
+  base_ccp_alpha: 0.0003495518460689819
+  base_criterion: friedman_mse
+  base_learning_rate: 0.13174599231400133
+  base_max_depth: 3
+  base_max_leaf_nodes: 22
+  base_model: GradientBoostingRegressor
+  base_n_estimators: 273
+  refit_alpha: 2.4576407175472866e-05
+  refit_model: Lasso
+  shared_random_state: 0
+test_score: 0.44852528061539243
+train_time: 0.287456750869751
+val_score: 0.32825438205492813

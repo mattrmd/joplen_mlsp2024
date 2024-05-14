@@ -1,6 +1,0 @@
-outs:
-- md5: 915acb4b598fa50160506b680e0a56aa.dir
-  size: 459674
-  nfiles: 7
-  hash: md5
-  path: breast_cancer_wisconsin

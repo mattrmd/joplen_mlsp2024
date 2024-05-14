@@ -1,3 +1,7 @@
 /datasets/pmlb/raw
 /my_env*
 __pycache__
+**/experiment.json
+datasets/nanoparticle/*
+datasets/pmlb/*
+datasets/sarcos/*

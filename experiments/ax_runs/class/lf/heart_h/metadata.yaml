@@ -1,0 +1,22 @@
+contains_categorical: postprocessed
+dummy_loss: 13.216006242676288
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.3666666666666667
+metadata:
+  test:
+    auc: 0.8421052631578947
+    zo_loss: 0.16666666666666663
+  val:
+    auc: 0.8734335839598997
+    zo_loss: 0.2033898305084746
+model_name: LinearForestClassifier
+params:
+  ccp_alpha: 0.029870247573560837
+  max_depth: 3
+  max_leaf_nodes: 9
+  n_estimators: 584
+  random_state: 0
+test_score: 0.5263326862041022
+train_time: 0.3581273555755615
+val_score: 0.6392666215903536

@@ -1,0 +1,17 @@
+contains_categorical: postprocessed
+dummy_loss: 44.23838516743375
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: ExtraTreesRegressor
+params:
+  criterion: squared_error
+  max_depth: 4
+  max_features: 1
+  max_leaf_nodes: 23
+  n_estimators: 72
+  random_state: 0
+test_score: 28.486263294659334
+train_time: 0.02892279624938965
+val_score: 18.955714223332293

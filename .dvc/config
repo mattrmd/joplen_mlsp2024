@@ -1,5 +1,0 @@
-[core]
-    autostage = true
-    remote = local-hdd
-['remote "local-hdd"']
-    url = /storage/dvc/joplen-tests

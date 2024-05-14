@@ -1,0 +1,25 @@
+contains_categorical: postprocessed
+dummy_loss: 12.014551129705717
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.33333333333333337
+metadata:
+  test:
+    auc: 0.828125
+    zo_loss: 0.16666666666666663
+  val:
+    auc: 0.9375
+    zo_loss: 0.16666666666666663
+model_name: GradientBoostingClassifier
+params:
+  ccp_alpha: 1.7253970122593144e-05
+  criterion: friedman_mse
+  learning_rate: 0.6699843162639809
+  loss: log_loss
+  max_depth: 3
+  max_leaf_nodes: 11
+  n_estimators: 209
+  random_state: 0
+test_score: 0.40810950800752116
+train_time: 0.05486941337585449
+val_score: 0.365576691255618

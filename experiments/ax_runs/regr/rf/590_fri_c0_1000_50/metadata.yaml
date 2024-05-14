@@ -1,0 +1,18 @@
+contains_categorical: false
+dummy_loss: 0.9717028215250143
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: RandomForestRegressor
+params:
+  ccp_alpha: 0.00025344093785956064
+  criterion: squared_error
+  max_depth: 5
+  max_leaf_nodes: 25
+  n_estimators: 82
+  n_jobs: -1
+  random_state: 0
+test_score: 0.5117059643756126
+train_time: 0.11849546432495117
+val_score: 0.5106152706505305

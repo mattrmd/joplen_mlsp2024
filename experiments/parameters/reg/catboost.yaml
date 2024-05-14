@@ -1,0 +1,46 @@
+dir_name: cb
+model: "CatBoostRegressor"
+handles_categorical: True
+parameters:
+- name: od_wait
+  type: range
+  bounds: [1, 100]
+  value_type: int
+- name: iterations
+  type: range
+  bounds: [10, 1000]
+  value_type: int
+  log_scale: True
+- name: learning_rate
+  type: range
+  bounds: [1.0e-5, 1]
+  value_type: float
+- name: l2_leaf_reg
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: random_seed
+  type: fixed
+  value: 0
+  value_type: int
+- name: od_type
+  type: fixed
+  value: "Iter"
+  value_type: str
+- name: subsample
+  type: fixed
+  value: 1.0
+  value_type: float
+- name: grow_policy
+  type: fixed
+  value: "SymmetricTree"
+  value_type: str
+- name: max_depth
+  type: range
+  bounds: [1,5]
+  value_type: int
+- name: allow_writing_files
+  type: fixed
+  value: False
+  value_type: bool

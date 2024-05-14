@@ -1,0 +1,19 @@
+contains_categorical: false
+dummy_loss: 12.655040825637897
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: NN
+params:
+  activation: relu
+  alpha: 6.180049170409642
+  batch_size: 64
+  epochs: 10000
+  hidden_layer_size: 88
+  learning_rate: 0.018128617594570115
+  n_hidden_layers: 4
+  patience: 100
+test_score: 6.116029355575141
+train_time: 69.1148452758789
+val_score: 6.18301031471945

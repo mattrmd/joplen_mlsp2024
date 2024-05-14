@@ -1,0 +1,29 @@
+contains_categorical: postprocessed
+dummy_loss: 16.19352543569032
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.4492753623188406
+metadata:
+  test:
+    auc: 0.8743633276740238
+    zo_loss: 0.2028985507246377
+  val:
+    auc: 0.8854588034915903
+    zo_loss: 0.18840579710144922
+model_name: FriedmanRefit
+params:
+  base_ccp_alpha: 0.00092577351949922
+  base_criterion: log_loss
+  base_max_depth: 5
+  base_max_leaf_nodes: 15
+  base_model: RandomForestClassifier
+  base_n_estimators: 10
+  base_n_jobs: -1
+  refit_C: 51.527071096008015
+  refit_model: LogisticRegression
+  refit_penalty: l1
+  refit_solver: saga
+  shared_random_state: 0
+test_score: 0.42098859754928597
+train_time: 0.032662153244018555
+val_score: 0.4170812256941869

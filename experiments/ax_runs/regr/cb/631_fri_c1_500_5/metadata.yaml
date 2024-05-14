@@ -1,0 +1,21 @@
+contains_categorical: false
+dummy_loss: 0.9682621201834556
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: CatBoostRegressor
+params:
+  allow_writing_files: false
+  grow_policy: SymmetricTree
+  iterations: 1000
+  l2_leaf_reg: 0.00020039666623504653
+  learning_rate: 0.11938998440915734
+  max_depth: 2
+  od_type: Iter
+  od_wait: 100
+  random_seed: 0
+  subsample: 1.0
+test_score: 0.2711855712166703
+train_time: 0.09983038902282715
+val_score: 0.257389126761204

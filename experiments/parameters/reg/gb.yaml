@@ -1,0 +1,35 @@
+dir_name: gb
+model: "GradientBoostingRegressor"
+handles_categorical: False
+parameters:
+- name: learning_rate
+  type: range
+  bounds: [1.0e-5, 1.0]
+  value_type: float
+- name: n_estimators
+  type: range
+  bounds: [10, 1000]
+  value_type: int
+  log_scale: True
+- name: criterion
+  type: choice
+  values: ["friedman_mse", "squared_error"]
+  value_type: str
+  is_ordered: True
+- name: max_leaf_nodes
+  type: range
+  bounds: [2, 32]
+  value_type: int
+- name: ccp_alpha
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: max_depth
+  type: range
+  bounds: [1, 5]
+  value_type: int
+- name: random_state
+  type: fixed
+  value: 0
+  value_type: int

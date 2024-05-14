@@ -1,0 +1,43 @@
+dir_name: xgboost
+model: "XGBRegressor"
+handles_categorical: False
+parameters:
+- name: max_leaves
+  type: range
+  bounds: [2, 32]
+  value_type: int
+- name: early_stopping_rounds
+  type: range
+  bounds: [1, 100]
+  value_type: int
+- name: n_estimators
+  type: range
+  bounds: [10, 1000]
+  value_type: int
+  log_scale: True
+- name: learning_rate
+  type: range
+  bounds: [1.0e-5, 1]
+  value_type: float
+- name: reg_alpha
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: reg_lambda
+  type: range
+  bounds: [1.0e-5, 1.0e+1]
+  value_type: float
+  log_scale: True
+- name: random_state
+  type: fixed
+  value: 0
+  value_type: int
+- name: verbosity
+  type: fixed
+  value: 0
+  value_type: int
+- name: objective
+  type: fixed
+  value: "reg:squarederror"
+  value_type: str

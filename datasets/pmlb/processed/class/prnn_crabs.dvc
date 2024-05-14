@@ -1,6 +1,0 @@
-outs:
-- md5: 32fc99a0d58d407f3292d358d97ecc84.dir
-  size: 58665
-  nfiles: 7
-  hash: md5
-  path: prnn_crabs

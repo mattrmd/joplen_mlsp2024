@@ -1,0 +1,23 @@
+contains_categorical: false
+dummy_loss: 12.638683655924195
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.35064935064935066
+metadata:
+  test:
+    auc: 0.8355555555555555
+    zo_loss: 0.2987012987012987
+  val:
+    auc: 0.8385185185185186
+    zo_loss: 0.3246753246753247
+model_name: ExtraTreesClassifier
+params:
+  criterion: log_loss
+  max_depth: 5
+  max_features: 1
+  max_leaf_nodes: 23
+  n_estimators: 196
+  random_state: 0
+test_score: 0.5585074813480135
+train_time: 0.09909868240356445
+val_score: 0.5674348078323666

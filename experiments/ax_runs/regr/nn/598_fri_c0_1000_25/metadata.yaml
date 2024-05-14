@@ -1,0 +1,19 @@
+contains_categorical: false
+dummy_loss: 0.9141231652427646
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: NN
+params:
+  activation: sigmoid
+  alpha: 0.0028125080476474784
+  batch_size: 128
+  epochs: 10000
+  hidden_layer_size: 43
+  learning_rate: 0.002422367366968444
+  n_hidden_layers: 1
+  patience: 100
+test_score: 0.24910791438514052
+train_time: 44.36931014060974
+val_score: 0.24819979276687032

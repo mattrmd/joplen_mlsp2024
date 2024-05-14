@@ -1,0 +1,23 @@
+contains_categorical: postprocessed
+dummy_loss: 3236.112649739362
+dummy_metadata: {}
+metadata:
+  n_epochs: 112
+  test: {}
+  val: {}
+model_name: JOPLEn
+params:
+  Group21Norm_lam: 0.03152883574593493
+  SquaredFNorm_lam: 85.29867116746998
+  cell_model: CellModel.linear
+  loss_fn: SquaredError
+  max_iters: 100000
+  mu: 5.954714860214744
+  n_cells: 2
+  n_partitions: 776
+  partitioner: LinearForestPartition
+  random_state: 0
+  verbose: false
+test_score: 3245.5372933902354
+train_time: 0.8694696426391602
+val_score: 3920.3239866969925

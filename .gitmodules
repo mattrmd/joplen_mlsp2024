@@ -1,6 +1,6 @@
 [submodule "ml_utils"]
 	path = ml_utils
-	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/utilities/ml_utils.git
+	url = https://gitlab.eecs.umich.edu/mattrmd-vl-research/utilities/ml_utils.git
 [submodule "general-descriptors-datasets"]
 	path = datasets/general-descriptors-datasets
-	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/datasets/general-descriptors-datasets.git
+	url = https://gitlab.eecs.umich.edu/mattrmd-vl-research/datasets/general-descriptors-datasets.git

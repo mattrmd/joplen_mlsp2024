@@ -1,0 +1,20 @@
+contains_categorical: false
+dummy_loss: 1.0740026860078762
+dummy_metadata: {}
+metadata:
+  test: {}
+  val: {}
+model_name: XGBRegressor
+params:
+  early_stopping_rounds: 33
+  learning_rate: 0.4183603045923618
+  max_leaves: 10
+  n_estimators: 46
+  objective: reg:squarederror
+  random_state: 0
+  reg_alpha: 0.008998710698652585
+  reg_lambda: 0.00027157153112720555
+  verbosity: 0
+test_score: 0.45519657794143675
+train_time: 0.36002397537231445
+val_score: 0.454349256979814

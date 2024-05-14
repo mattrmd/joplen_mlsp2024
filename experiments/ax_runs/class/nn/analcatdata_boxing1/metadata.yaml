@@ -1,0 +1,25 @@
+contains_categorical: postprocessed
+dummy_loss: 12.014551129705717
+dummy_metadata:
+  auc: 0.5
+  zo_loss: 0.33333333333333337
+metadata:
+  test:
+    auc: 0.890625
+    zo_loss: 0.16666666666666663
+  val:
+    auc: 0.9609375
+    zo_loss: 0.04166666666666663
+model_name: NN
+params:
+  activation: relu
+  alpha: 1.0e-05
+  batch_size: 128
+  epochs: 10000
+  hidden_layer_size: 42
+  learning_rate: 0.06474023113880813
+  n_hidden_layers: 2
+  patience: 100
+test_score: 0.3691306714385236
+train_time: 3.095224142074585
+val_score: 0.29851426477256743
