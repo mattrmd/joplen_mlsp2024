@@ -6,9 +6,11 @@
 bash -l setup.sh
 ```
 
-==The zip file for peer review already contains all data and results.==
+Because of size constraints, the `experiments.json` files are not included. This means that the results are cached but that running `singletask_regclass.ipynb` will run all of the experiments again instead of reading the cached `experiments.json` files. However, the reported values are contained in the `metadata.yaml` files, which are included.
 
-Because of size constraints, the `experiments.json` files are not included. This means that the results are cached but that running `singletask_regclass.ipynb` will run all of the experiments again instead of reading the cached `experiments.json` files.
+Additionally, the preprocessed data is not included. All of it except for the NanoChem datasets is dynamically downloaded when needed, and the data should only be needed if the entire pipeline is run from scratch.
+
+Rerunning the entire pipeline is projected to take about a week of nonstop computation on a 16 core computer with an RTX 3080 GPU.
 
 ## Splitting the data
 
