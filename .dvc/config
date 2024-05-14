@@ -1,7 +1,5 @@
 [core]
     autostage = true
-    remote = matt-hdd
-['remote "umich-gdrive"']
-    url = gdrive://1MJK6zNdbMJ6CjNdhDd64Kp46M4MGq4Dj
-['remote "matt-hdd"']
+    remote = local-hdd
+['remote "local-hdd"']
     url = /storage/dvc/joplen-tests

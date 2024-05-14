@@ -1,0 +1,12 @@
+/my_env*/
+/myenv
+data/
+*.pyc
+/cache/
+/wandb/
+/baselines/
+/ax_runs/
+__pytache__/
+*.egg-info/
+dist/
+build/
