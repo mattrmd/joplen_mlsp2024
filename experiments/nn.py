@@ -1,7 +1,7 @@
-# Written by ChatGPT4
+# Written by ChatGPT4.
+# Can be used for feature selection or regression/classification tasks
 
 import tensorflow as tf
-from matplotlib import pyplot as plt
 from sklearn.base import BaseEstimator, ClassifierMixin
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import Dense, Input, Layer

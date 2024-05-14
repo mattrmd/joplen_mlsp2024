@@ -1,0 +1,6 @@
+outs:
+- md5: 4dbe4dda0113d8cdcb7d26141efed50b.dir
+  size: 135216
+  nfiles: 2
+  hash: md5
+  path: dirty_lasso

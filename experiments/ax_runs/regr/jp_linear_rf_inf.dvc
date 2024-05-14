@@ -1,0 +1,6 @@
+outs:
+- md5: d2b63aa3692d423175888d6c65c67fab.dir
+  size: 59425312
+  nfiles: 180
+  hash: md5
+  path: jp_linear_rf_inf

@@ -1,6 +1,6 @@
 # README
 
-## Technical Details
+## Installation
 
 ```bash
 conda create --prefix ./my_env python=3.10
@@ -10,76 +10,46 @@ conda config --set env_prompt '(my_env) '
 pip install -r requirements.txt
 ```
 
-## Experiments
+## Downloading the data
 
-==Currently focusing on datasets with all scaler values because JOPLEn was not designed to work with categorical, binary, nominal, or ordinal values.==
+Most of the data will be downloaded automatically when the code is run.
+However, some of the data is stored in DVC repositories and needs to be downloaded manually.
 
-### Single-task prediction
+```bash
+pull_dvc_files() {
+    local TARGET_DIRS=("$@")
+    for TARGET_DIR in "${TARGET_DIRS[@]}"; do
+        find "$TARGET_DIR" -type f -name "*.dvc" | while read -r dvc_file; do
+            file_path="${dvc_file%.dvc}"
+            dvc pull "$file_path"
+        done
+    done
+}
 
-#### Raw JOPLEn
+# pull the NanoChem dataset if you want to run the preprocessing yourself
+TARGET_DIRS=()"datasets/general-descriptors-datasets/preprocessed/")
+pull_dvc_files "${TARGET_DIRS[@]}"
+```
 
-Methods to evaluate
+## Downloading cached experiment results
 
-- Constant cells
-  - [ ] SKLearn Gradient Boosting
-  - [ ] SKLearn Random Forest
-  - [ ] SKLearn Extra Trees (random)
-  - [ ] JOPLEn Voronoi cell
-- Linear cells
-  - [ ] Linear Gradient Boosted Trees
-  - [ ] Linear Random Forest
-  - [ ] JOPLEn Voronoi cell
+```bash
+# Pull the preprocessed datasets
+TARGET_DIRS=("datasets/pmlb/processed/class/" "datasets/pmlb/processed/reg/")
+pull_dvc_files "${TARGET_DIRS[@]}"
 
-##### Notes
+dvc pull "datasets/sarcos/processed/"
+dvc pull "datasets/nanoparticle/processed/"
 
-- Seems like JOPLEn loses to all but Extra Trees. Also, performs worse than predicting the mean. Seems weird. Need to look into that more. Most ensembles chose the max number of partitions. Might mean that I need to add more partitions to make up for the randomness in the partitions.
+# Pull the parameters
+TARGET_DIRS=("experiments/parameters/class/" "experiments/parameters/reg/")
+pull_dvc_files "${TARGET_DIRS[@]}"
 
-#### JOPLEn refitting tree partitions
+# Pull the experiment results
+TARGET_DIRS=("experiments/ax_runs/class/" "experiments/ax_runs/reg/" "experiments/manual/nanoparticle/" "experiments/manual/sarcos/")
+pull_dvc_files "${TARGET_DIRS[@]}"
 
-- Constant cells
-  - [ ] JOPLEn with SKLearn Gradient Boosting partitions
-  - [ ] JOPLEn with SKLearn Random Forest
-  - [ ] JOPLEn with SKLearn Extra Trees (random)
-- Linear cells
-  - [ ] JOPLEn with Linear Gradient Boosted Trees
-
-#### Datasets
-
-- [Penn Machine Learning Benchmark](https://epistasislab.github.io/pmlb/)
-
-### Single-task feature selection
-
-#### Models
-
-- [ ] ElasticNet
-- [ ] Gradient Boosting feature selection
-- [ ] JOPLEn with linear partitions
-
-#### Datasets
-
--
-
-### Multitask feature selection
-
-#### Models
-
-- [ ] Dirty LASSO
-- [ ] JOPLEn with linear partitions
-
-#### Datasets
-
--
-
-## Competing methods
-
-- [Linear Gradient Boosted Trees](https://github.com/cerlymarco/linear-tree)
-- [SKLearn Gradient Boosted Tree](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html)
-- [SKLearn Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-- [SKLearn Extra Trees](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html)
-- [Dirty LASSO](https://hichamjanati.github.io/mutar/generated/mutar.DirtyModel.html#mutar.DirtyModel)
-- [ElasticNet](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html)
-- [Kernel LASSO](https://github.com/riken-aip/pyHSICLasso/)
-
-## Feature Ideas
-
-- [ ] $$\ell_1$$ group penalty across all weights in a partition rather than all cells. This would allow the model to ``learn'' the partitions via sparsity.
+# Pull the plots
+TARGET_DIRS=("experiments/plots/")
+pull_dvc_files "${TARGET_DIRS[@]}"
+```

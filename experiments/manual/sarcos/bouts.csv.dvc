@@ -1,0 +1,5 @@
+outs:
+- md5: b72faba27068e954cc636ec5813f6ecc
+  size: 478
+  hash: md5
+  path: bouts.csv
