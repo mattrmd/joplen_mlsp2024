@@ -1,10 +1,6 @@
 #!/bin/bash
 which python
 
-# Change the urls of the submodules to HTTPS so they can be pulled without authentication
-# This is necessary because HTTPS is pull-only, and cannot be used for development
-bash switch_url.sh https
-
 # set up virtual environment
 conda create --prefix ./my_env python=3.10 --yes
 echo -e "Virtual environment created\n\n"
