@@ -2,9 +2,6 @@
 	path = joplen
 	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/joplen/joplen.git
 	branch = main
-[submodule "ccm"]
-	path = ccm
-	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/joplen/competing-methods/ccm.git
 [submodule "ml_utils"]
 	path = ml_utils
 	url = git@gitlab.eecs.umich.edu:mattrmd-vl-research/utilities/ml_utils.git

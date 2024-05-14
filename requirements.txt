@@ -1,7 +1,5 @@
 numpy==1.24.4
 matplotlib==3.8.0
-# seaborn==0.13.0
-# scikit-learn==1.2.0
 black==23.10.1
 dvc==3.33.3
 dvc-gdrive==2.20.0
@@ -12,24 +10,8 @@ lightgbm==4.1.0
 linear-tree==0.3.5
 gputil==1.4.0
 cython==0.29.34
-scipy==1.8.1
-
-
-# Our method
--e ./joplen
--e ./ml_utils
-
-# Competing methods
-pyHSICLasso==1.4.2
--e ./ccm
-mutar==0.0.1
-
-# implementation of masked multitask dirty lasso based on the MUTAR library
-mutar @ git+ssh://git@gitlab.eecs.umich.edu/mattrmd-public/gendesc/mutar.git@5428bf20eb7f4818bd9386d411d27bb396a0b8e9#egg=mutar
-
-scikit-learn @ git+ssh://git@gitlab.eecs.umich.edu/mattrmd-public/gendesc/multitask-sklearn.git@57c1712b04cbffd1ea76d1073075b5dca0010e76#egg=scikit-learn
-
-critdd @ git+https://github.com/mirkobunse/critdd
+scipy==1.13.0
+catboost==1.2.5
 
 # fastel
 # https://github.com/tensorflow/probability/releases/tag/v0.22.0
