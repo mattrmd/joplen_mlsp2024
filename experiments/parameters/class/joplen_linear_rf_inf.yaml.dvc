@@ -1,5 +1,5 @@
 outs:
-- md5: 7cf0b7059866a01057ff783e484bff4b
-  size: 996
+- md5: f22da8c507bf7a230840c2e26927d351
+  size: 839
   hash: md5
   path: joplen_linear_rf_inf.yaml

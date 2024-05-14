@@ -1,5 +1,5 @@
 outs:
-- md5: 1b8b85c3a5b62fcc11f6836b43c363a6
-  size: 1049
+- md5: f4dfff01aa1f2f99dcfad84995d32480
+  size: 823
   hash: md5
   path: catboost.yaml

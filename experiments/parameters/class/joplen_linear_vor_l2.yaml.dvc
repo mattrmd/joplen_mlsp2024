@@ -1,5 +1,5 @@
 outs:
-- md5: f512ee705a7734699bcc166208f187ca
-  size: 924
+- md5: cf71d58c2941cad665782cb672e10d9d
+  size: 824
   hash: md5
   path: joplen_linear_vor_l2.yaml
