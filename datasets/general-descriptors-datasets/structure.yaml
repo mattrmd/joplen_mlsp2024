@@ -1,0 +1,50 @@
+---
+source: preprocessed_data
+datasets:
+  small_mols_1:
+    source_ds: small_mols_1
+    index: [0]
+    data:
+      logp:
+        path: small_molecules_logp.csv
+        property: logp
+      mr:
+        path: small_molecules_mr.csv
+        property: mr
+  small_mols_2:
+    source_ds: small_mols_2
+    index: [0]
+    data:
+      logp:
+        path: new_small_molecules_logp.csv
+        property: logp
+  prot:
+    source_ds: prot
+    index: [0]
+    data:
+      solubility:
+        path: new_protein_sol.csv
+        property: solubility
+  np:
+    source_ds: np
+    index: [0]
+    data:
+      zeta_potential:
+        path: nanoparticle_zp.csv
+        property: zeta_potential
+      logp:
+        path: nanoparticle_logp.csv
+        property: logp
+  physprop:
+    source_ds: physprop
+    index: [0]
+    data:
+      henry:
+        path: physprop_henry.csv
+        property: henry
+      boiling:
+        path: physprop_boiling.csv
+        property: boiling
+      melting:
+        path: physprop_melting.csv
+        property: melting
